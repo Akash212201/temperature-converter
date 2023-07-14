@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Temperature Converter</h2>
+        <div class="content">
+            <label for="">From</label>
+            <select name="type" id="type-1">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Rankine">Rankine</option>
+                <option value="Reaumure">Reaumure</option> 
+            </select>
+            <input type="number" value="" id="inputValue1" required>
+        </div>
+        <div class="content">
+            <label for="">To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="type" id="type-2">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Rankine">Rankine</option>
+                <option value="Reaumure">Reaumure</option> 
+            </select>
+            <input type="number" value="" id="inputValue2">
+        </div>
+
+        <button onclick="clearData()">Clear</button>
+    </div>
+    <script src="index.js"></script>
+ </body>
+
+</html>
